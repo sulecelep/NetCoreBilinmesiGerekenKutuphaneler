@@ -1,0 +1,34 @@
+SOLID-
+
+Single Responsibility Principle
+
+Bir classın birden fazla sorumluluğu olmamalıdır.
+Ortak amacı temsil edecek isimlendirme yapmamak lazım. Helper classı gibi.
+Neye özel helper yazdıysak onunla ilgili olduğunu sonradan baktığımızda anlamamız lazım.
+Helper yapısını single responsibility'i en büyük ihlal eden yapılardır, büyük projelerde kullanmaktan kaçınmak gerekiyor..
+Kullanacaksak adını özelleştirmemiz gerekiyor ki sonradan eklenen kodlarla şişmesin.(UrlHelper gibi)
+Bir classı değiştirmeniz için sadece bir sebep olmalı, birden fazla sebep olmamalı. Robert C. Martin
+
+
+Open-Closed Principle
+
+Bir uygulamanın gelişime açık ama değişime kapalı olmasıdır. Bertrand Meyer
+Müşteri feedbackleri gelince projenin büyük kısmını değiştirmemiz gerekiyorsa bu prensibi ihlal etmişiz demektir.
+
+
+Liskov Substitution Principle
+
+Bir nesne var, bir de bu nesneyi miras alan alt nesneler var. Bunlar yer değiştirdiği zaman uygulamanın kırılmaması lazım.
+yani base sınıfından miras alınan metotlar alt nesnelerde çalıştırılabilmeli.
+
+
+Interface Segregation Principle
+
+Bir interface onu kullanacak olan clientlara özgü olmalıdır. Genel amaçlı olmamalıdır.
+
+
+Dependency Inversion Principle
+
+Controllerlar Servicelere, Service'ler Repository'lere bağlı olmayacak. Hepsi interfaceler üzerinden bağlı olacak.
+Controller içinde Service new'lenmemesi lazım. Çünkü newlersek yarın birgün B classındaki değişiklikten A classı etkilenecek.
+Bu bağlantılar soyut olan interfaceler üzerinden sağlanmalı.
