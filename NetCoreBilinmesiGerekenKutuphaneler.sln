@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.App", "Solid.App\Solid.App.csproj", "{8AA495CE-1C0B-4F6A-907A-0633B8FF35C5}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RateLimitLibrary", "RateLimitLibrary", "{EF151773-4DE7-43E2-8947-CE718482DC68}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FluentValidationLibrary", "FluentValidationLibrary", "{B34ED552-1D43-4B3C-B2EE-9A25E905DD9F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidationApp.Web", "FluentValidationLibrary\FluentValidationApp.Web\FluentValidationApp.Web.csproj", "{96A2B911-8E4A-429E-87E0-4A4E985DFDAA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimit.API", "RateLimit.API\RateLimit.API.csproj", "{60C8861B-28A9-42E6-A966-458A96AF1A79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,20 +13,16 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8AA495CE-1C0B-4F6A-907A-0633B8FF35C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8AA495CE-1C0B-4F6A-907A-0633B8FF35C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8AA495CE-1C0B-4F6A-907A-0633B8FF35C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8AA495CE-1C0B-4F6A-907A-0633B8FF35C5}.Release|Any CPU.Build.0 = Release|Any CPU
-		{96A2B911-8E4A-429E-87E0-4A4E985DFDAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{96A2B911-8E4A-429E-87E0-4A4E985DFDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{96A2B911-8E4A-429E-87E0-4A4E985DFDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{96A2B911-8E4A-429E-87E0-4A4E985DFDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60C8861B-28A9-42E6-A966-458A96AF1A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60C8861B-28A9-42E6-A966-458A96AF1A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60C8861B-28A9-42E6-A966-458A96AF1A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60C8861B-28A9-42E6-A966-458A96AF1A79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{96A2B911-8E4A-429E-87E0-4A4E985DFDAA} = {B34ED552-1D43-4B3C-B2EE-9A25E905DD9F}
+		{60C8861B-28A9-42E6-A966-458A96AF1A79} = {EF151773-4DE7-43E2-8947-CE718482DC68}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F6E4B6D-377F-4269-A657-8BBE1DC8A76C}
