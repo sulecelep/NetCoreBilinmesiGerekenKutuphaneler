@@ -5,7 +5,11 @@ VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RateLimitLibrary", "RateLimitLibrary", "{EF151773-4DE7-43E2-8947-CE718482DC68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RateLimit.API", "RateLimit.API\RateLimit.API.csproj", "{60C8861B-28A9-42E6-A966-458A96AF1A79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RateLimit.API", "RateLimit.API\RateLimit.API.csproj", "{60C8861B-28A9-42E6-A966-458A96AF1A79}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SmidgeLibrary", "SmidgeLibrary", "{B040FE88-B6F5-412C-B4F0-CA34B7EC9FD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmidgeApp.Web", "SmidgeLibrary\SmidgeApp.Web\SmidgeApp.Web.csproj", "{996D4477-9CC5-4EAC-937A-244CF5AD9644}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,12 +21,17 @@ Global
 		{60C8861B-28A9-42E6-A966-458A96AF1A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60C8861B-28A9-42E6-A966-458A96AF1A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60C8861B-28A9-42E6-A966-458A96AF1A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996D4477-9CC5-4EAC-937A-244CF5AD9644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996D4477-9CC5-4EAC-937A-244CF5AD9644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996D4477-9CC5-4EAC-937A-244CF5AD9644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996D4477-9CC5-4EAC-937A-244CF5AD9644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{60C8861B-28A9-42E6-A966-458A96AF1A79} = {EF151773-4DE7-43E2-8947-CE718482DC68}
+		{996D4477-9CC5-4EAC-937A-244CF5AD9644} = {B040FE88-B6F5-412C-B4F0-CA34B7EC9FD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F6E4B6D-377F-4269-A657-8BBE1DC8A76C}
