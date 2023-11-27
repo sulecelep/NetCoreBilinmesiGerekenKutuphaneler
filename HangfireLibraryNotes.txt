@@ -1,0 +1,23 @@
+JOBS TURLERI
+
+FireAndForget:
+Tek seferde çalýþabilecek bir kodumuz varsa kullanýlýr.
+Örn: Kullanýcý üye olduðunda mail atmak.
+
+
+delayed:
+Tek seferde çalýþabilecek ama belli bir süre sonra çalýþmasý gereken kod türümüz varsa kullanýlýr.
+Örn: Kullanýcý siteye üye olduktan 1 saat sonra kullanýcýnýn e-mail hesabýna bilgilendirme mesajý göndermek.
+
+Recurring:
+Belli aralýklarla çalýþmasýný istediðimiz kodlar varsa kullanýlýr.
+Örn; her ayýn 1'inde rapor oluþturmak istiyorsak bu job türünü kullanabiliriz.
+
+Continuations:
+Diðer Job türlerini kullandýktan sonra çalýþacak bir kod türümüz varsa kullanýlýr.
+Örn: Herhangi bir job türünü kullandýktan sonra çalýþýr, tek baþýna çalýþmaz. 
+
+Batch(Ücretli): Toplu iþlem yapmak istediðimiz zaman hatalarýmýzý daha kolay kontrol etmek için kullanýlýr.
+Batch Continuations(Ücretli):
+
+
