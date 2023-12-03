@@ -1,0 +1,11 @@
+﻿
+Middleware nedir ne işe yarar?
+
+Middleware request ile response arasındaki bizim istediğimiz kontrolleri sağlamaya yarayan geri bildirimlerdir.
+
+Filterlar: interface'i bir metoda istek gelmeden önce isteği yakalayabiliyor veya controllerdaki metod çalışmadan önce bir şey yapmak istiyorsak burada yapabiliriz.
+1-AuthorizationFilter //metoda girmeden yetkisi var mı yok mu diye bakar
+2-ResourceFilter
+3-ActionFilter //metod çalışmadan önce veya çalıştıktan sonra mesela loglama yaparken kullanılır.
+4-ResultFilter
+5-ExceptionFilter
