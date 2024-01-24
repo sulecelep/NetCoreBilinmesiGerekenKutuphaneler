@@ -1,0 +1,7 @@
+Loglama Bizim İçin Ne Kadar Önemli? Önem sıralaması 0-->5
+Trace(0) : ISS çalışıyor çalışmıyor fln olsa da olur olmasa da olur. 
+Debug(1) : Metota girdi çıktı, kaydedildi.
+Information(2) : Uygulama akışı takip edilmesi için kullanılır. 
+Warning(3) : Uygulama akışında anormal değer var ama uygulamayı patlatmıyor. 
+Error(4) : Ele alınamayan handle edilemeyen bir hata var, uygulamayı patlatıyor. 
+Critical(5) : Acil durumlarda kullanılır. Sql Server'ın disk alanının dolduğunu belirtmek için kullanılır. 
