@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solid.App", "Solid.App\Solid.App.csproj", "{8AA495CE-1C0B-4F6A-907A-0633B8FF35C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solid.App", "Solid.App\Solid.App.csproj", "{8AA495CE-1C0B-4F6A-907A-0633B8FF35C5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FluentValidationLibrary", "FluentValidationLibrary", "{B34ED552-1D43-4B3C-B2EE-9A25E905DD9F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentValidationApp.Web", "FluentValidationLibrary\FluentValidationApp.Web\FluentValidationApp.Web.csproj", "{96A2B911-8E4A-429E-87E0-4A4E985DFDAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentValidationApp.Web", "FluentValidationLibrary\FluentValidationApp.Web\FluentValidationApp.Web.csproj", "{96A2B911-8E4A-429E-87E0-4A4E985DFDAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Environment", "Environment", "{7B41E6FA-8B03-4202-9864-7625C4E16455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UdemyEnvironment", "Environment\UdemyEnvironment\UdemyEnvironment.csproj", "{6ADF49DD-37AC-4529-B1E8-479DC6BDCCEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +27,17 @@ Global
 		{96A2B911-8E4A-429E-87E0-4A4E985DFDAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96A2B911-8E4A-429E-87E0-4A4E985DFDAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96A2B911-8E4A-429E-87E0-4A4E985DFDAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ADF49DD-37AC-4529-B1E8-479DC6BDCCEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ADF49DD-37AC-4529-B1E8-479DC6BDCCEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ADF49DD-37AC-4529-B1E8-479DC6BDCCEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ADF49DD-37AC-4529-B1E8-479DC6BDCCEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{96A2B911-8E4A-429E-87E0-4A4E985DFDAA} = {B34ED552-1D43-4B3C-B2EE-9A25E905DD9F}
+		{6ADF49DD-37AC-4529-B1E8-479DC6BDCCEE} = {7B41E6FA-8B03-4202-9864-7625C4E16455}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6F6E4B6D-377F-4269-A657-8BBE1DC8A76C}
